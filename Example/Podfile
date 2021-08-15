@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'DHBasicKnowledge_Example' do
+  pod 'DHBasicKnowledge', :path => '../'
+
+  target 'DHBasicKnowledge_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
