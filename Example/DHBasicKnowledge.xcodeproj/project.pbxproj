@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3802D6CA271BC02600EBEFB3 /* DHCodingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3802D6B4271BC02500EBEFB3 /* DHCodingViewController.m */; };
+		3802D6CB271BC02600EBEFB3 /* MasonryAutoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3802D6B8271BC02600EBEFB3 /* MasonryAutoViewController.m */; };
+		3802D6CC271BC02600EBEFB3 /* DHBluetoothViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3802D6B9271BC02600EBEFB3 /* DHBluetoothViewController.m */; };
+		3802D6CD271BC02600EBEFB3 /* DHCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3802D6BA271BC02600EBEFB3 /* DHCategoryViewController.m */; };
+		3802D6CE271BC02600EBEFB3 /* DHSingLeton.m in Sources */ = {isa = PBXBuildFile; fileRef = 3802D6BB271BC02600EBEFB3 /* DHSingLeton.m */; };
+		3802D6D0271BC02600EBEFB3 /* DHObjectDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 3802D6C4271BC02600EBEFB3 /* DHObjectDetail.m */; };
+		3802D6D1271BC02600EBEFB3 /* DHDate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3802D6C5271BC02600EBEFB3 /* DHDate.m */; };
+		3802D6D2271BC02600EBEFB3 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 3802D6C6271BC02600EBEFB3 /* ReplaceMe.m */; };
+		3802D6D3271BC02600EBEFB3 /* DHExampleClassDifference.m in Sources */ = {isa = PBXBuildFile; fileRef = 3802D6C7271BC02600EBEFB3 /* DHExampleClassDifference.m */; };
+		3802D6D4271BC02600EBEFB3 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 3802D6C9271BC02600EBEFB3 /* .gitkeep */; };
+		389F07982744E44A00F08843 /* DHGetClassViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 389F07972744E44A00F08843 /* DHGetClassViewController.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -39,9 +50,29 @@
 /* Begin PBXFileReference section */
 		043EC069CF15C13D8537C596 /* Pods-DHBasicKnowledge_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DHBasicKnowledge_Example.debug.xcconfig"; path = "Target Support Files/Pods-DHBasicKnowledge_Example/Pods-DHBasicKnowledge_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		23C3876EBE2212D1D54E7F7F /* Pods-DHBasicKnowledge_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DHBasicKnowledge_Example.release.xcconfig"; path = "Target Support Files/Pods-DHBasicKnowledge_Example/Pods-DHBasicKnowledge_Example.release.xcconfig"; sourceTree = "<group>"; };
-		39CED1A63377079667D978FF /* DHBasicKnowledge.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = DHBasicKnowledge.podspec; path = ../DHBasicKnowledge.podspec; sourceTree = "<group>"; };
+		3802D6B4271BC02500EBEFB3 /* DHCodingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DHCodingViewController.m; path = ../../DHCodingViewController.m; sourceTree = "<group>"; };
+		3802D6B5271BC02600EBEFB3 /* DHCodingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DHCodingViewController.h; path = ../../DHCodingViewController.h; sourceTree = "<group>"; };
+		3802D6B8271BC02600EBEFB3 /* MasonryAutoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasonryAutoViewController.m; sourceTree = "<group>"; };
+		3802D6B9271BC02600EBEFB3 /* DHBluetoothViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHBluetoothViewController.m; sourceTree = "<group>"; };
+		3802D6BA271BC02600EBEFB3 /* DHCategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHCategoryViewController.m; sourceTree = "<group>"; };
+		3802D6BB271BC02600EBEFB3 /* DHSingLeton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHSingLeton.m; sourceTree = "<group>"; };
+		3802D6BC271BC02600EBEFB3 /* DHDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHDate.h; sourceTree = "<group>"; };
+		3802D6BD271BC02600EBEFB3 /* DHObjectDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHObjectDetail.h; sourceTree = "<group>"; };
+		3802D6BF271BC02600EBEFB3 /* DHExampleClassDifference.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHExampleClassDifference.h; sourceTree = "<group>"; };
+		3802D6C0271BC02600EBEFB3 /* DHSingLeton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHSingLeton.h; sourceTree = "<group>"; };
+		3802D6C1271BC02600EBEFB3 /* DHCategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHCategoryViewController.h; sourceTree = "<group>"; };
+		3802D6C2271BC02600EBEFB3 /* DHBluetoothViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DHBluetoothViewController.h; sourceTree = "<group>"; };
+		3802D6C3271BC02600EBEFB3 /* MasonryAutoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasonryAutoViewController.h; sourceTree = "<group>"; };
+		3802D6C4271BC02600EBEFB3 /* DHObjectDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHObjectDetail.m; sourceTree = "<group>"; };
+		3802D6C5271BC02600EBEFB3 /* DHDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHDate.m; sourceTree = "<group>"; };
+		3802D6C6271BC02600EBEFB3 /* ReplaceMe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		3802D6C7271BC02600EBEFB3 /* DHExampleClassDifference.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DHExampleClassDifference.m; sourceTree = "<group>"; };
+		3802D6C9271BC02600EBEFB3 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		389F07962744E44A00F08843 /* DHGetClassViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DHGetClassViewController.h; sourceTree = "<group>"; };
+		389F07972744E44A00F08843 /* DHGetClassViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DHGetClassViewController.m; sourceTree = "<group>"; };
+		39CED1A63377079667D978FF /* DHBasicKnowledge.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DHBasicKnowledge.podspec; path = ../DHBasicKnowledge.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		593E2B31F15D29033E98C0C3 /* Pods-DHBasicKnowledge_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DHBasicKnowledge_Tests.release.xcconfig"; path = "Target Support Files/Pods-DHBasicKnowledge_Tests/Pods-DHBasicKnowledge_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		5F902EB1B3E46093290142F7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		5F902EB1B3E46093290142F7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* DHBasicKnowledge_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DHBasicKnowledge_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -66,7 +97,7 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8A2674FB6733720CE8A8DFBC /* Pods_DHBasicKnowledge_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DHBasicKnowledge_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFA47437A8D6E239110BF4F3 /* Pods_DHBasicKnowledge_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DHBasicKnowledge_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F63989BBAAB00FE56E7B915A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F63989BBAAB00FE56E7B915A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +126,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3802D6B6271BC02600EBEFB3 /* DHBasicKnowledge */ = {
+			isa = PBXGroup;
+			children = (
+				3802D6B7271BC02600EBEFB3 /* Classes */,
+				3802D6C8271BC02600EBEFB3 /* Assets */,
+			);
+			name = DHBasicKnowledge;
+			path = ../../DHBasicKnowledge;
+			sourceTree = "<group>";
+		};
+		3802D6B7271BC02600EBEFB3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3802D6C2271BC02600EBEFB3 /* DHBluetoothViewController.h */,
+				3802D6B9271BC02600EBEFB3 /* DHBluetoothViewController.m */,
+				3802D6C1271BC02600EBEFB3 /* DHCategoryViewController.h */,
+				3802D6BA271BC02600EBEFB3 /* DHCategoryViewController.m */,
+				3802D6BC271BC02600EBEFB3 /* DHDate.h */,
+				3802D6C5271BC02600EBEFB3 /* DHDate.m */,
+				3802D6BF271BC02600EBEFB3 /* DHExampleClassDifference.h */,
+				3802D6C7271BC02600EBEFB3 /* DHExampleClassDifference.m */,
+				3802D6BD271BC02600EBEFB3 /* DHObjectDetail.h */,
+				3802D6C4271BC02600EBEFB3 /* DHObjectDetail.m */,
+				3802D6C0271BC02600EBEFB3 /* DHSingLeton.h */,
+				3802D6BB271BC02600EBEFB3 /* DHSingLeton.m */,
+				3802D6C3271BC02600EBEFB3 /* MasonryAutoViewController.h */,
+				3802D6B8271BC02600EBEFB3 /* MasonryAutoViewController.m */,
+				389F07962744E44A00F08843 /* DHGetClassViewController.h */,
+				389F07972744E44A00F08843 /* DHGetClassViewController.m */,
+				3802D6C6271BC02600EBEFB3 /* ReplaceMe.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		3802D6C8271BC02600EBEFB3 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				3802D6C9271BC02600EBEFB3 /* .gitkeep */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -137,6 +210,9 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* DHViewController.h */,
 				6003F5A6195388D20070C39A /* DHViewController.m */,
+				3802D6B6271BC02600EBEFB3 /* DHBasicKnowledge */,
+				3802D6B5271BC02600EBEFB3 /* DHCodingViewController.h */,
+				3802D6B4271BC02500EBEFB3 /* DHCodingViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -193,7 +269,6 @@
 				85CF47E80605D6880EA9D593 /* Pods-DHBasicKnowledge_Tests.debug.xcconfig */,
 				593E2B31F15D29033E98C0C3 /* Pods-DHBasicKnowledge_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -259,6 +334,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -280,6 +356,7 @@
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				3802D6D4271BC02600EBEFB3 /* .gitkeep in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
@@ -325,10 +402,20 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-DHBasicKnowledge_Tests/Pods-DHBasicKnowledge_Tests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CategoryRelyon/CategoryRelyon.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImageWebPCoder/SDWebImageWebPCoder.framework",
+				"${BUILT_PRODUCTS_DIR}/libwebp/libwebp.framework",
 				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase/FBSnapshotTestCase.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CategoryRelyon.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImageWebPCoder.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/libwebp.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSnapshotTestCase.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -343,11 +430,25 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-DHBasicKnowledge_Example/Pods-DHBasicKnowledge_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/CategoryRelyon/CategoryRelyon.framework",
 				"${BUILT_PRODUCTS_DIR}/DHBasicKnowledge/DHBasicKnowledge.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImageWebPCoder/SDWebImageWebPCoder.framework",
+				"${BUILT_PRODUCTS_DIR}/Yoga/yoga.framework",
+				"${BUILT_PRODUCTS_DIR}/YogaKit/YogaKit.framework",
+				"${BUILT_PRODUCTS_DIR}/libwebp/libwebp.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CategoryRelyon.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DHBasicKnowledge.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImageWebPCoder.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/yoga.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YogaKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/libwebp.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -384,8 +485,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* DHAppDelegate.m in Sources */,
+				389F07982744E44A00F08843 /* DHGetClassViewController.m in Sources */,
+				3802D6CB271BC02600EBEFB3 /* MasonryAutoViewController.m in Sources */,
 				6003F5A7195388D20070C39A /* DHViewController.m in Sources */,
+				3802D6CE271BC02600EBEFB3 /* DHSingLeton.m in Sources */,
+				3802D6CA271BC02600EBEFB3 /* DHCodingViewController.m in Sources */,
+				3802D6CD271BC02600EBEFB3 /* DHCategoryViewController.m in Sources */,
+				3802D6D2271BC02600EBEFB3 /* ReplaceMe.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				3802D6CC271BC02600EBEFB3 /* DHBluetoothViewController.m in Sources */,
+				3802D6D0271BC02600EBEFB3 /* DHObjectDetail.m in Sources */,
+				3802D6D3271BC02600EBEFB3 /* DHExampleClassDifference.m in Sources */,
+				3802D6D1271BC02600EBEFB3 /* DHDate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

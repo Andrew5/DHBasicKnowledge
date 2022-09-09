@@ -1,0 +1,69 @@
+PODS:
+  - CategoryRelyon (0.1.0):
+    - Masonry
+    - SDWebImage
+    - SDWebImageWebPCoder
+  - DHBasicKnowledge (0.1.0):
+    - CategoryRelyon
+    - Masonry
+    - YogaKit
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - libwebp (1.2.1):
+    - libwebp/demux (= 1.2.1)
+    - libwebp/mux (= 1.2.1)
+    - libwebp/webp (= 1.2.1)
+  - libwebp/demux (1.2.1):
+    - libwebp/webp
+  - libwebp/mux (1.2.1):
+    - libwebp/demux
+  - libwebp/webp (1.2.1)
+  - Masonry (1.1.0)
+  - SDWebImage (5.12.5):
+    - SDWebImage/Core (= 5.12.5)
+  - SDWebImage/Core (5.12.5)
+  - SDWebImageWebPCoder (0.8.4):
+    - libwebp (~> 1.0)
+    - SDWebImage/Core (~> 5.10)
+  - Yoga (1.14.0)
+  - YogaKit (1.18.1):
+    - Yoga (~> 1.14)
+
+DEPENDENCIES:
+  - CategoryRelyon (from `../../CategoryRelyon`)
+  - DHBasicKnowledge (from `../`)
+  - FBSnapshotTestCase
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+    - libwebp
+    - Masonry
+    - SDWebImage
+    - SDWebImageWebPCoder
+    - Yoga
+    - YogaKit
+
+EXTERNAL SOURCES:
+  CategoryRelyon:
+    :path: "../../CategoryRelyon"
+  DHBasicKnowledge:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CategoryRelyon: 72defa8b4537c52188d4f0cf088e8c82c25cb20c
+  DHBasicKnowledge: 64fc24f9ad8179a5bb780a7a6f54c7180f1d000d
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  libwebp: 98a37e597e40bfdb4c911fc98f2c53d0b12d05fc
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  SDWebImage: 0905f1b7760fc8ac4198cae0036600d67478751e
+  SDWebImageWebPCoder: f93010f3f6c031e2f8fb3081ca4ee6966c539815
+  Yoga: cff67a400f6b74dc38eb0bad4f156673d9aa980c
+  YogaKit: f782866e155069a2cca2517aafea43200b01fd5a
+
+PODFILE CHECKSUM: f1861498e0eb79ae591e4b101690a2ccb5662c25
+
+COCOAPODS: 1.11.2

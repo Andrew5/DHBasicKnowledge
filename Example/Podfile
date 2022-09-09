@@ -9,5 +9,6 @@ target 'DHBasicKnowledge_Example' do
     inherit! :search_paths
 
     pod 'FBSnapshotTestCase'
+    pod 'CategoryRelyon',   :path => '../../CategoryRelyon'
   end
 end
