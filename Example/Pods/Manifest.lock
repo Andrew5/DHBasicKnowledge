@@ -1,10 +1,14 @@
 PODS:
   - CategoryRelyon (0.1.0):
+    - CategoryRelyon/OnlyCategory (= 0.1.0)
+    - Masonry
+    - SDWebImage
+    - SDWebImageWebPCoder
+  - CategoryRelyon/OnlyCategory (0.1.0):
     - Masonry
     - SDWebImage
     - SDWebImageWebPCoder
   - DHBasicKnowledge (0.1.0):
-    - CategoryRelyon
     - Masonry
     - YogaKit
   - FBSnapshotTestCase (2.1.4):
@@ -54,8 +58,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CategoryRelyon: 72defa8b4537c52188d4f0cf088e8c82c25cb20c
-  DHBasicKnowledge: 64fc24f9ad8179a5bb780a7a6f54c7180f1d000d
+  CategoryRelyon: 7dbf6e02543e7bf4f7000f12029fae5a98866f75
+  DHBasicKnowledge: 305ad7326297fea793e9383f1f6fa2efc5c91733
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
   libwebp: 98a37e597e40bfdb4c911fc98f2c53d0b12d05fc
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
@@ -66,4 +70,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: f1861498e0eb79ae591e4b101690a2ccb5662c25
 
-COCOAPODS: 1.11.2
+COCOAPODS: 1.11.3

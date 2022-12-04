@@ -986,7 +986,9 @@
         [self.view layoutIfNeeded];
     }];
 }
-
++ (void)d_release {
+    NSLog(@"释放本类 %s-%@",__FUNCTION__,NSStringFromClass([self class]));
+}
 /*
 #pragma mark - Navigation
 

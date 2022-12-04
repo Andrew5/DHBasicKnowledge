@@ -9,7 +9,7 @@
 #import "DHObjectDetail.h"
 #import "WTTestObject.h"
 #import "ApplicationList.h"
-#import "GKNavigationBarConfigure.h"
+//#import "GKNavigationBarConfigure.h"
 
 #import <malloc/malloc.h>
 #import <objc/message.h>
@@ -432,9 +432,9 @@ struct LGStruct3{
     [ApplicationList test];
     [app applist];
     
-    if ([GKNavigationBarConfigure isSimulator]){
-        NSLog(@"%@",[NSString stringWithFormat:@"%s %@", getenv("SIMULATOR_MODEL_IDENTIFIER"),[NSProcessInfo processInfo].environment[@"SIMULATOR_DEVICE_NAME"]]);
-    }
+//    if ([GKNavigationBarConfigure isSimulator]){
+//        NSLog(@"%@",[NSString stringWithFormat:@"%s %@", getenv("SIMULATOR_MODEL_IDENTIFIER"),[NSProcessInfo processInfo].environment[@"SIMULATOR_DEVICE_NAME"]]);
+//    }
     /*
      
      func getPlatformNSString() {

@@ -10,7 +10,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface MasonryAutoViewController : UIViewController
-
++ (void)d_release;
 @end
 
 NS_ASSUME_NONNULL_END

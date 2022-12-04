@@ -18,7 +18,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <iostream>
-
+using namespace std;
 #endif /* Person_h */
 
 namespace cppdemo {

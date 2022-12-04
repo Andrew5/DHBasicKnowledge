@@ -40,7 +40,7 @@ TODO: Add long description of the pod here.
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
    s.dependency 'Masonry'
-   s.dependency 'CategoryRelyon'#,:path => '../../CategoryRelyon'
+#   s.dependency 'CategoryRelyon'#,:path => '../../CategoryRelyon'
    s.dependency 'YogaKit' #提供给Objective-C和Swift使用
 
 

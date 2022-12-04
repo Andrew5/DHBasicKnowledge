@@ -8,6 +8,7 @@
 #ifndef Learn0518Node_h
 #define Learn0518Node_h
 
+#include <stdlib.h>
 #include <stdio.h>
 //声明节点 供外部调用
 
