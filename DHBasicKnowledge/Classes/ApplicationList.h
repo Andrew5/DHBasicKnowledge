@@ -11,13 +11,14 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface ApplicationList : NSObject
+@property (nonatomic, strong) NSString *title;
 /** 获取已安装应用列表  */
 - (void)applist;
 - (BOOL)isJailBreak;
 + (BOOL)isJailbroken;
 - (BOOL)isJailBreakAppList;
 - (BOOL)isJailBreakEnv;
-+ (void)test;
++ (void)testForObject:(ApplicationList *)object withString:(NSString *)string;
 static BOOL APCheckIfAppInstalled1(NSString *bundleIdentifier); // Bundle identifier (eg. com.apple.mobilesafari) used to track apps
 
 @end

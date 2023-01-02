@@ -612,7 +612,9 @@ char* printEnv(void) {
     return NO;
 }
 
-+ (void)test {
++ (void)testForObject:(ApplicationList *)object withString:(NSString *)string {
+    
+    object.title = string;
     Dl_info info;
     IMP imp;
     Method orginalMethod = class_getClassMethod([NSObject class], @selector(load));

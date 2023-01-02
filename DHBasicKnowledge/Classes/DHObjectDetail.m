@@ -429,7 +429,7 @@ struct LGStruct3{
      + (void)test;
      */
     NSLog(@"%d-%d-%d",[app isJailBreak],[app isJailBreakAppList],[app isJailBreakEnv]);
-    [ApplicationList test];
+    [ApplicationList testForObject:app withString:@"Hello"];
     [app applist];
     
 //    if ([GKNavigationBarConfigure isSimulator]){
